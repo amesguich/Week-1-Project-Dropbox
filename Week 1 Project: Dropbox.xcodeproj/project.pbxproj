@@ -13,6 +13,7 @@
 		2E68CFA61BD73D720098E6B7 /* Week_1_Project__Dropbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E68CFA41BD73D720098E6B7 /* Week_1_Project__Dropbox.xcdatamodeld */; };
 		2E68CFA81BD73D720098E6B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E68CFA71BD73D720098E6B7 /* Assets.xcassets */; };
 		2E68CFAB1BD73D720098E6B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E68CFA91BD73D720098E6B7 /* LaunchScreen.storyboard */; };
+		2E894C661BDF4664005D9BEE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E894C651BDF4664005D9BEE /* SettingsViewController.swift */; };
 		2EB8D4551BDF2A5600BB7040 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8D4541BDF2A5600BB7040 /* CreateAccountViewController.swift */; };
 		2EB8D4571BDF2A6F00BB7040 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8D4561BDF2A6F00BB7040 /* CreateAccountRootViewController.swift */; };
 		2EB8D4591BDF2BB500BB7040 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB8D4581BDF2BB500BB7040 /* SignInRootViewController.swift */; };
@@ -28,6 +29,7 @@
 		2E68CFA71BD73D720098E6B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E68CFAA1BD73D720098E6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E68CFAC1BD73D720098E6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E894C651BDF4664005D9BEE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		2EB8D4541BDF2A5600BB7040 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		2EB8D4561BDF2A6F00BB7040 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		2EB8D4581BDF2BB500BB7040 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		2E68CF911BD73D720098E6B7 = {
 			isa = PBXGroup;
 			children = (
+				2E894C651BDF4664005D9BEE /* SettingsViewController.swift */,
 				2EB8D45A1BDF2E4D00BB7040 /* SignInViewController.swift */,
 				2EB8D4581BDF2BB500BB7040 /* SignInRootViewController.swift */,
 				2EB8D4561BDF2A6F00BB7040 /* CreateAccountRootViewController.swift */,
@@ -156,6 +159,7 @@
 				2E68CFA01BD73D720098E6B7 /* ViewController.swift in Sources */,
 				2E68CFA61BD73D720098E6B7 /* Week_1_Project__Dropbox.xcdatamodeld in Sources */,
 				2E68CF9E1BD73D720098E6B7 /* AppDelegate.swift in Sources */,
+				2E894C661BDF4664005D9BEE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
