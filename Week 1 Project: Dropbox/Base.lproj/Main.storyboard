@@ -124,7 +124,7 @@
         <!--Sign In View Controller-->
         <scene sceneID="jz3-Oj-cXI">
             <objects>
-                <viewController id="kZe-nX-F9l" customClass="SignInViewController" sceneMemberID="viewController">
+                <viewController id="kZe-nX-F9l" customClass="SignInViewController" customModule="Week_1_Project__Dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lTq-JS-she">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -228,7 +228,7 @@
         <!--Create Account View Controller-->
         <scene sceneID="nUW-Uj-cMe">
             <objects>
-                <viewController id="0fS-v3-a3I" customClass="CreateAccountViewController" sceneMemberID="viewController">
+                <viewController id="0fS-v3-a3I" customClass="CreateAccountViewController" customModule="Week_1_Project__Dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Xw-sW-q7H">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -545,7 +545,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="hwT-Sn-Pn3"/>
                     <connections>
-                        <outlet property="Scroller" destination="mSh-Yy-zRo" id="Pqx-Eh-K3u"/>
                         <outlet property="imageView" destination="wao-rS-2wf" id="wut-1Y-DAt"/>
                         <outlet property="scrollView" destination="mSh-Yy-zRo" id="7IY-Bj-pCx"/>
                     </connections>
@@ -557,7 +556,7 @@
         <!--Create Account Root View Controller-->
         <scene sceneID="Wbb-0q-fi8">
             <objects>
-                <viewController id="I3o-Q7-5kJ" customClass="CreateAccountRootViewController" customModule="Week_1_Project__Dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="I3o-Q7-5kJ" customClass="CreateAccountRootViewController" customModule="Week_1_Project__Dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TVc-3G-k4k">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -583,6 +582,22 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <animations/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g9n-j5-7Ue">
+                                <rect key="frame" x="0.0" y="469" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="0fS-v3-a3I" kind="push" id="lii-en-e24"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ihd-hg-jc7">
+                                <rect key="frame" x="0.0" y="426" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="kZe-nX-F9l" kind="push" id="R37-sr-lbZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -616,7 +631,7 @@
         <!--Sign In Root View Controller-->
         <scene sceneID="Rf0-IN-M5F">
             <objects>
-                <viewController id="e8e-dO-p4Y" customClass="SignInRootViewController" customModule="Week_1_Project__Dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="e8e-dO-p4Y" customClass="SignInRootViewController" customModule="Week_1_Project__Dropbox" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="089-kj-jgw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -631,7 +646,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="0fS-v3-a3I" kind="push" id="kVX-Wt-60c"/>
+                                    <segue destination="0fS-v3-a3I" kind="push" id="N5T-LV-gVs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UIR-Pc-lyc">
@@ -639,7 +654,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
-                                    <segue destination="kZe-nX-F9l" kind="push" identifier="Segue2" id="woC-4o-2vc"/>
+                                    <segue destination="kZe-nX-F9l" kind="push" id="ecv-36-0lj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -783,7 +798,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="existing_files" id="qz2-8H-3t4">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="454"/>
+                                <rect key="frame" x="0.0" y="27" width="320" height="454"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <animations/>
                             </imageView>
@@ -869,7 +884,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="PQd-BM-1Z1"/>
                     <connections>
-                        <outlet property="Scroller" destination="sRJ-vu-enF" id="A8f-U1-6st"/>
                         <outlet property="imageView" destination="ImE-iK-fsf" id="qpQ-3i-sr3"/>
                         <outlet property="scrollView" destination="sRJ-vu-enF" id="0XA-34-cPt"/>
                     </connections>
@@ -1011,6 +1025,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="6X2-A6-9mm"/>
         <segue reference="xJg-YE-VqV"/>
-        <segue reference="OUO-lN-WuY"/>
+        <segue reference="R37-sr-lbZ"/>
     </inferredMetricsTieBreakers>
 </document>
