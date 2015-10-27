@@ -147,7 +147,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
-                                    <action selector="KickBack:" destination="kZe-nX-F9l" eventType="touchUpInside" id="nWx-e1-GEb"/>
+                                    <action selector="onDismissButton:" destination="kZe-nX-F9l" eventType="touchUpInside" id="pdI-Ff-Q2E"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -158,7 +158,7 @@
                         <barButtonItem key="backBarButtonItem" title="Welcome" id="DFh-t9-mrh"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="CancelButton" destination="Vlk-MG-6Pr" id="a0U-6H-PTz"/>
+                        <outlet property="CancelButton" destination="Vlk-MG-6Pr" id="Ip3-C5-a6l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AXY-B2-5Dm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -251,7 +251,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <connections>
-                                    <action selector="onDismissButton:" destination="0fS-v3-a3I" eventType="touchUpInside" id="Whq-dH-Tvb"/>
+                                    <action selector="onDismissButton:" destination="0fS-v3-a3I" eventType="touchUpInside" id="1Jb-Gm-Ue2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -260,7 +260,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="9DC-Wj-Y0C"/>
                     <connections>
-                        <outlet property="CancelButton" destination="UCN-Cp-A5d" id="JKC-CP-Mbg"/>
+                        <outlet property="CancelButton" destination="UCN-Cp-A5d" id="iBl-2d-J8I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FYM-ZT-Oz8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1009,8 +1009,8 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kVX-Wt-60c"/>
+        <segue reference="6X2-A6-9mm"/>
         <segue reference="xJg-YE-VqV"/>
-        <segue reference="woC-4o-2vc"/>
+        <segue reference="OUO-lN-WuY"/>
     </inferredMetricsTieBreakers>
 </document>
